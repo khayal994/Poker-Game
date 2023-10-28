@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conrtanier{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.tag {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.tag h1{
+    color: gold;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+#kart{
+    background-color: gold;
+    border: 1px solid #fff700;
+}
+#son{
+    background-color: transparent;
+    color: #fff;
+}
